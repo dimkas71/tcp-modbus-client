@@ -163,7 +163,7 @@ public class TCPModubsClientService extends Service {
         msg.arg1 = startId;
 
         mServiceHandler.sendMessage(msg);
-        return START_STICKY;
+        return START_REDELIVER_INTENT;
 
 
     }
